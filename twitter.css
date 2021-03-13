@@ -344,6 +344,7 @@ body {
 
   .divfa{
     border-bottom:   1px solid gray;
+    box-shadow: 1px 10px #888888;
       
   }
 
@@ -375,9 +376,7 @@ body {
   }
 
 
-  .empty-div{
-    background-color: lightgray;
-  }
+  
 
 
   .efiong-div{
@@ -388,13 +387,15 @@ body {
   .eddit-class{
      margin-left: 10px;
      border: 1px solid green;
+     margin-top: 10px;
 
   }
 
   .editt{
     float: right;
-    margin-right: 8px; 
-    margin-top: 5px;
+    margin-right: 2px; 
+    margin-top: 15px;
+    
       
   }
   
@@ -402,7 +403,7 @@ body {
 
   #eddit-fa{
     float: right;
-    margin-left: 350px; 
+    margin-left: 260px; 
        
   }
 
