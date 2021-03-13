@@ -1,0 +1,460 @@
+
+*{
+  box-sizing: border-box; 
+}
+
+
+
+body {
+    display: block;
+    /* align-self: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    margin-left: 450px; 
+    background: white;
+    
+    
+   
+     
+ }
+
+.navbar{
+    height: 100vh;
+    min-width: 200px;
+    top: 0px;
+    left: 0px;
+    margin-left: 140px; 
+    margin-right: 2050px;
+    padding: 30px;
+    border-right: 1px solid gray;
+    display: block;
+    align-self: flex-end;
+    position: fixed;
+    background: white;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+   margin-top: 2px;
+   display: block;
+   color: #4d4e53;
+   padding-bottom: 5px;  
+   font-size: 25px; 
+   
+ 
+
+}
+
+#fa{
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.tweet{
+    background-color: blue;
+    border-radius: 50px;
+    text-align:center; 
+    margin-right: 30px; 
+    color: white;
+    font-size: large;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.more{
+    font-size: 25px;
+}
+
+
+.prof{
+    margin-top: 40px;
+    padding-left: 40px;
+    
+}
+.imgg{
+     border-top: 2px solid black; 
+     margin: 10 15px;
+     margin-top: 20px;
+     /* margin-right: 80px; */
+}
+
+.nemeremm{
+    float: right;
+    margin-right: 30px; 
+    margin-top: 30px;
+    
+    
+}
+
+.sec-divv{
+  float: right;
+  width: 38%;
+  margin-right: 20px;
+}
+.headerclass{
+    border: 9px solid lightgray;
+    margin-left: 15px;
+    margin-right: 200px;
+    border-radius: 20px;
+    background-color:lightblue;
+     position: fixed;  
+    width: 25%;
+    }
+
+
+    .topnav input[type=text] {
+      padding: 6px;
+      margin-top: 8px;
+      font-size: 17px;
+      border: none;
+      margin-left: 0px;
+      background-color: #fff;
+    }
+    
+
+    .topnav input:focus {
+      outline: none;
+  }
+  
+    .topnav .search-container button {
+      float: left;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-left: 40px;
+      background: white;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+
+    
+    .topnav .search-container button:hover {
+      background: pink;
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav .search-container {
+        float: none;
+      }
+      .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+    }
+
+
+
+    .h2-class{
+      background-color: lightblue;
+      border-radius: 10px;
+      margin-left: 20px;
+      margin-top: 80px;
+      
+      
+    }
+    .h2-class h2 {
+       margin-left: 20px; 
+      
+    }
+
+    .dtrend{
+      margin-left: 20px;
+      margin-right: 5px;
+    }
+
+#trend-fa{
+  float: right;
+  
+
+}
+
+
+.show-class{
+  background-color: lightblue;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+}
+
+.follow-div{
+  background-color:lightblue;
+  margin-left: 20px;
+  border-bottom: 3px solid red;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.ok-div{
+  border-bottom: 4px solid lightgray;
+}
+.ok-div h2{
+  margin-left: 5px;
+  font-family: monospace;
+  border-bottom: 2px solid lightgray;
+}
+
+.foll-class{
+   float: right; 
+  margin-right: 20px; 
+  margin-top: 5px;
+  
+
+}
+
+
+
+.fill-btn{ 
+  
+  border: 2px solid blue;
+   float: right; 
+    margin-left: 160px; 
+    margin-bottom: 40px;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    color:white;
+}
+
+
+.ebukadiv{
+  background-color:lightblue;
+  margin-left: 20px;
+  /* border-bottom: 3px solid red; */
+  /* border-radius: 10px; */
+  margin-top: 1px;
+
+
+  
+}
+
+
+
+.eddit-classs{
+  margin-left: 10px;
+     border: 1px solid green;
+     margin-top: 5px;
+}
+
+
+
+
+/* .follow-clas{ */
+  /* float: right;  */
+  /* margin-right: 5px;  */
+  /* margin-top: 2px; */
+ /* margin-left: 50px;  */
+  /* margin-bottom: 10px; */
+  /* margin-top: 2px; */
+  
+
+/* } */
+
+/* .fillbtn{ */
+  /* background-color: blue; */
+   /* float: right;  */
+    /* margin-left: 149px;   */
+    /* margin-bottom: 0px; */
+   /* height: 30px; 
+    width: 60px;
+    color: white;
+    border-radius: 10px;
+}*/
+  
+
+
+.header-class{
+    border-right: 1px solid gray;
+    width: 60%;
+    background-color: white;
+    border-bottom: 2px solid red;
+    border-top: 1px solid gray;
+}
+
+    
+
+.secdiv{
+    border-bottom: 1px solid gray;
+    position: fixed; 
+    background-color: white;
+    width: 42%;
+    padding-top:5px;
+    
+
+    
+
+}
+ h1{
+ margin-left: 5px;
+}
+
+
+#ficons{
+    float: right; 
+     margin-right: 20px;
+    /* padding: 10px; */
+}
+
+
+.mydivu{
+  margin-top: 80px;
+  
+}
+
+
+.inputt{
+    width: 100%;
+    display: flex;
+    padding: 5 30px;
+    
+
+}
+
+.imgphoto{
+    border-top: 2px solid black; 
+    margin-left: 15px;
+    margin-top: 10px;
+}
+ .mydivu input[type=text] { 
+    width: 100%;
+    margin: 5 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    
+  }
+
+  .mydivu input:focus {
+    outline: none;
+}
+
+  ::placeholder {
+    color: lightblue;
+    
+    
+  }
+
+  .divfa{
+    border-bottom:   1px solid gray;
+      
+  }
+
+  #ffa{
+    /* margin-right: 5px; */
+     /* padding: 5px;  */
+    margin-left: 50px;
+    font-size: 20px;
+    color: blue;
+}
+
+#pfa{
+    margin-right: 10px;
+    padding: 10px;
+}
+
+  .ptweet{
+    background-color: blue;
+    border-radius: 50px;
+    float: right; 
+    text-align: center;
+    margin-bottom: 50px;  
+    margin-right: 30px;
+    color: white;
+    font-size: large;
+    width: 70px;
+    padding: 5px;
+
+  }
+
+
+  .empty-div{
+    background-color: lightgray;
+  }
+
+
+  .efiong-div{
+      display: block;
+      border-bottom: 2px solid lightgray;
+    
+  }
+  .eddit-class{
+     margin-left: 10px;
+     border: 1px solid green;
+
+  }
+
+  .editt{
+    float: right;
+    margin-right: 8px; 
+    margin-top: 5px;
+      
+  }
+  
+
+
+  #eddit-fa{
+    float: right;
+    margin-left: 350px; 
+       
+  }
+
+  
+  .span-editbrr{
+     margin-left: 80px; 
+     margin-top: 30px;
+    
+    
+  }
+
+  #edit-fa{
+    margin-left: 90px;
+    padding: 0px;
+  }
+
+  .jessie-class{
+    margin-left: 10px;
+     border: 1px solid green;
+     float: left;
+     margin-top: 8px;
+
+  }
+
+    .jessie{
+      float: right;
+      margin-right: 5px; 
+      margin-top: 0px;
+  
+   
+  }
+
+  #jessie-fa{
+    float: right;
+    margin-left: 260px; 
+  }
+
+  .div-for-sophisticateddev{
+    border: 3px solid lightgray;
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 20px;
+
+  }
+  
+
+  .dev-class{
+    margin-left: 50px;
+     border: 1px solid green;
+     float: left;
+     margin-top: 8px;
+  }
+
+
+  
